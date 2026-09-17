@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "id": "demo-user-rahul",
+      "name": "Rahul",
+      "email": "rahul@example.com",
+      "passwordHash": "42655644b9bc1b3bf15d6f553c7e01b3f4cbab9d4ec3eaaf9054321f0f1569b2",
+      "monthlyIncome": 30000,
+      "savingsGoalTarget": 60000,
+      "savingFor": "Emergency fund",
+      "spendingHabit": "A mix of essentials and wants",
+      "isOnboarded": true,
+      "createdAt": "2026-09-17T09:19:21.013Z"
+    },
+    {
+      "id": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "name": "Neha Borkar",
+      "email": "nehaborkar2408@gmail.com",
+      "passwordHash": "09ccfbc7cf950bdd2f53a2825a97795fc86cbe8c8e879222920c1000ebfae3a3",
+      "monthlyIncome": 30000,
+      "savingsGoalTarget": 90000,
+      "isOnboarded": true,
+      "createdAt": "2026-09-17T09:31:38.067Z",
+      "savingFor": "Emergency fund",
+      "spendingHabit": "A mix of essentials and wants"
+    },
+    {
+      "id": "user-582f1e43-cbaa-4a4d-8c84-ea44484eadfa",
+      "name": "Aarav Gupta",
+      "email": "testuser_1789638211764@example.com",
+      "passwordHash": "42655644b9bc1b3bf15d6f553c7e01b3f4cbab9d4ec3eaaf9054321f0f1569b2",
+      "monthlyIncome": 0,
+      "savingsGoalTarget": 0,
+      "isOnboarded": false,
+      "createdAt": "2026-09-17T09:43:31.986Z"
+    },
+    {
+      "id": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "name": "Aarav Gupta",
+      "email": "testuser_1789638233188@example.com",
+      "passwordHash": "42655644b9bc1b3bf15d6f553c7e01b3f4cbab9d4ec3eaaf9054321f0f1569b2",
+      "monthlyIncome": 40000,
+      "savingsGoalTarget": 120000,
+      "isOnboarded": true,
+      "createdAt": "2026-09-17T09:43:53.359Z",
+      "savingFor": "Emergency fund",
+      "spendingHabit": "A mix of essentials and wants"
+    }
+  ],
+  "incomes": [
+    {
+      "id": "inc-1",
+      "userId": "demo-user-rahul",
+      "source": "Salary",
+      "amount": 25000,
+      "date": "2026-09-17",
+      "notes": "Monthly primary job salary"
+    },
+    {
+      "id": "inc-2",
+      "userId": "demo-user-rahul",
+      "source": "Freelance",
+      "amount": 5000,
+      "date": "2026-09-17",
+      "notes": "Design consulting"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "userId": "demo-user-rahul",
+      "amount": 8000,
+      "category": "Rent",
+      "date": "2026-09-17",
+      "note": "Monthly apartment rent"
+    },
+    {
+      "id": "exp-2",
+      "userId": "demo-user-rahul",
+      "amount": 5000,
+      "category": "Food",
+      "date": "2026-09-17",
+      "note": "Groceries and dining"
+    },
+    {
+      "id": "exp-3",
+      "userId": "demo-user-rahul",
+      "amount": 2000,
+      "category": "Transport",
+      "date": "2026-09-17",
+      "note": "Metro pass and auto"
+    },
+    {
+      "id": "exp-4",
+      "userId": "demo-user-rahul",
+      "amount": 3000,
+      "category": "Entertainment",
+      "date": "2026-09-17",
+      "note": "Weekend movies & outings"
+    },
+    {
+      "id": "exp-5",
+      "userId": "demo-user-rahul",
+      "amount": 2500,
+      "category": "Bills",
+      "date": "2026-09-17",
+      "note": "Electricity and mobile wifi"
+    },
+    {
+      "id": "exp-6",
+      "userId": "demo-user-rahul",
+      "amount": 1500,
+      "category": "Shopping",
+      "date": "2026-09-17",
+      "note": "Clothes and essentials"
+    }
+  ],
+  "budgets": [
+    {
+      "userId": "demo-user-rahul",
+      "category": "Rent",
+      "limit": 8000
+    },
+    {
+      "userId": "demo-user-rahul",
+      "category": "Food",
+      "limit": 6000
+    },
+    {
+      "userId": "demo-user-rahul",
+      "category": "Transport",
+      "limit": 3000
+    },
+    {
+      "userId": "demo-user-rahul",
+      "category": "Entertainment",
+      "limit": 2000
+    },
+    {
+      "userId": "demo-user-rahul",
+      "category": "Bills",
+      "limit": 3000
+    },
+    {
+      "userId": "demo-user-rahul",
+      "category": "Shopping",
+      "limit": 2000
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Food",
+      "limit": 6000
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Rent",
+      "limit": 9000
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Transport",
+      "limit": 3000
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Bills",
+      "limit": 3000
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Entertainment",
+      "limit": 2400
+    },
+    {
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "category": "Shopping",
+      "limit": 2100
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Food",
+      "limit": 8000
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Rent",
+      "limit": 12000
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Transport",
+      "limit": 4000
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Bills",
+      "limit": 4000
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Entertainment",
+      "limit": 3200
+    },
+    {
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "category": "Shopping",
+      "limit": 2800
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-1",
+      "userId": "demo-user-rahul",
+      "name": "Emergency Fund",
+      "targetAmount": 60000,
+      "savedAmount": 23000,
+      "updatedAt": "2026-09-17T09:42:56.256Z"
+    },
+    {
+      "id": "goal-39d39297-4b34-4c04-b8a0-648eb17291ae",
+      "userId": "user-eddd9b97-7a19-4475-a11c-638c7a7b3bc8",
+      "name": "Emergency fund",
+      "targetAmount": 90000,
+      "savedAmount": 0,
+      "updatedAt": "2026-09-17T09:31:43.937Z"
+    },
+    {
+      "id": "goal-ffc67c7c-c1ef-41e3-9b9b-93dc70f9553d",
+      "userId": "user-3bfd5055-82e4-4050-98bd-4b1f8ff6732d",
+      "name": "Emergency fund",
+      "targetAmount": 120000,
+      "savedAmount": 0,
+      "updatedAt": "2026-09-17T09:43:53.383Z"
+    }
+  ]
+}

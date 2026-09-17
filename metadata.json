@@ -1,0 +1,6 @@
+{
+  "name": "Personal Finance Advisor Bot",
+  "description": "A simple, friendly personal finance assistant to track income and expenses, plan budgets, improve savings, and receive personalized financial insights.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
